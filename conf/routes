@@ -1,0 +1,25 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                         controllers.Application.index
+
+GET     /game1                         controllers.Application.game1
+GET     /game2                         controllers.Application.game2
+GET     /game3                         controllers.Application.game3
+GET     /game4                         controllers.Application.game4
+GET     /game5                         controllers.Application.game5
+GET     /game6                         controllers.Application.game6
+GET     /game7                         controllers.Application.game7
+GET     /game8                         controllers.Application.game8
+GET     /game9                        controllers.Application.game9
+GET     /game10                         controllers.Application.game10
+GET     /game11                         controllers.Application.game11
+GET     /game12                         controllers.Application.game12
+GET     /game13                         controllers.Application.game13
+
+GET     /_                        controllers.Application.game10
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
